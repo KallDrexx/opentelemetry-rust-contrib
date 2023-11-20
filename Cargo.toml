@@ -19,3 +19,9 @@ resolver = "2"
 # See function names in profiling reports.
 # 2/true is too much, 0 is not enough, 1 is just right for back traces
 debug = 1
+
+[workspace.dependencies]
+opentelemetry = { git = "https://github.com/KallDrexx/opentelemetry-rust", rev = "6cf86cf192034373797353eea1ee9efee551778d" }
+opentelemetry_sdk = { git = "https://github.com/KallDrexx/opentelemetry-rust", rev = "6cf86cf192034373797353eea1ee9efee551778d" }
+opentelemetry-otlp = { git = "https://github.com/KallDrexx/opentelemetry-rust", rev = "6cf86cf192034373797353eea1ee9efee551778d" }
+opentelemetry-semantic-conventions = { git = "https://github.com/KallDrexx/opentelemetry-rust", rev = "6cf86cf192034373797353eea1ee9efee551778d" }
